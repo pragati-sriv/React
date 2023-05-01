@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import Primary from './component/useRef';
+import Primary from './component/useEff';
 
 function App() {
   return (
