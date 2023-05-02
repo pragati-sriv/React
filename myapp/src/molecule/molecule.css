@@ -1,0 +1,23 @@
+
+.click{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    color:green;
+    display: inline-block;
+    background-color:green;
+    color: white;
+    /* display: flex; */
+    /* justify-content: inli; */
+    margin: 90px 90px 0 20px;
+    /* display: inline-block; */
+    /* background-color: green; */
+    border: 2px solid black;
+    /* margin-top:  400px; */
+}
+
+.cardContainer{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
