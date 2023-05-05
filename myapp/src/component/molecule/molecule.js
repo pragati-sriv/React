@@ -1,39 +1,20 @@
-import {useState} from 'react'
+import {useEffect, useState } from "react"
+// import { unstable_renderSubtreeIntoContainer } from "react-dom"
 import axios from 'axios'
-export default function Form()
+export default function Axios()
 {
-    const [mobileNumber ,setMobileNumber]=useState('')
-    const[response,setResponse]=useState(' ') 
-    function handlesubmit(e)
-    {
-      e.preventDefault();
-      if(!validMobileNumber(mobileNumber)){
-        setResponse("enter the 10 digits number");
-      }
-    }
-    axios.post("https://cdn-api.co-vin.in/api/v2/auth/public/generateOTP")
-    // console.log(sum)
-     .then((response)=>{
-      if(response.valid === 200){
-        setResponse("Succesfull")
-      }
-      else{
-        setResponse("unsuccesfull")
-      }
-    })
- 
-    const validMobileNumber = (mobileNumber)=>
-    {
-      const regex = /^[6-9]\d{9}$/;
-    return regex.test(mobileNumber);
-    }
+  const [image,setImage]=useState([])
+   useEffect(()=>{
+   axios.get("https://dog.ceo/api/breeds/image/random")
+  //  console.log(sum);
+  .then((response)=>setImage(response.data.message))
+   },[])
 
-    return(
-       <>
-       <box submit={handlesubmit}>
-       <input type ="number" placeholder='mobile' value={mobileNumber} onChange={(e) => setMobileNumber(e.target.value)}/>
-       <button> Get Otp </button>
-       </box>
-       </>
-    )
+
+  return(
+    <>
+    {/* <button onClick={submit}>click Me</button> */}
+    <img src={image} height="150px" width="150px" alt =" "/>
+    </>
+  )
 }
