@@ -1,0 +1,36 @@
+.wrapper{
+    width: 90vh;
+    height: 280px;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    background-color: lightslategray;
+    /* justify-content: center; */
+    flex-direction: column;
+    border-radius: 30px;
+    margin-top: 3px;
+    margin-left: 6px;
+    margin-right: 6px;
+    /* margin-top:10px ; */
+    /* margin-left: 10px; */
+    /* margin: auto; */
+    
+} 
+
+.image{
+    width: 100px;
+    border-radius: 50%;
+    /* margin-top: 10px; */
+    margin: auto;
+}
+
+.name{
+      /* margin-bottom: 50px; */
+      font-weight: bold;
+      color: blue;
+}
+
+
+.position{
+    color: darkgreen;
+}

@@ -1,0 +1,28 @@
+.wrapper{
+    border: 5px solid green;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    margin: auto;
+    background-color: aqua;
+    
+}
+/* .img{
+    background-color: aqua;
+    height: 240px;
+} */
+
+
+.image{
+    object-fit: cover;
+    width: 100px;
+   border-radius: 50%
+
+   /* border: 2px solid red; */
+}
+
+.name{
+    font-size: bolder;
+    color: blueviolet;
+}
+
