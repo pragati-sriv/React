@@ -1,22 +1,11 @@
 import './App.css';
-import Card from './component/atom/card';
-import { Data } from './data';
+import Box from './component/molecule/game';
+// import Square from './component/molecule/square';
+
 function App() {
-
-
   return (
-    <div className="first">
-      {
-        Data.map((x)=>{
-          return(
-            <Card pic={x.url}
-            Name={x.name}
-            Position={x.position}  
-            exp={x.exp}
-            />
-          )
-        })
-      }
+    <div className="App">
+    <Box/>
     </div>
   );
 }
