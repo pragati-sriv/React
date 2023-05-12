@@ -1,11 +1,17 @@
-import './App.css';
-import Box from './component/molecule/game';
-// import Square from './component/molecule/square';
+import React from 'react';
+import './App.css'
+// import Input from './molecule/todo'
+import TodoList from './atom/list'
+// import List from './component/todo-list';
 
 function App() {
   return (
     <div className="App">
-    <Box/>
+      <div>
+     < TodoList/>
+     {/* <List/> */}
+   
+    </div>
     </div>
   );
 }
