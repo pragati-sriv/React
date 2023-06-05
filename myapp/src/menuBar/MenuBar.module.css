@@ -1,0 +1,129 @@
+.list {
+    display: flex;
+    margin-top: -2.8rem;
+    margin-left: 4.5rem;
+    list-style-type: none;
+    gap: 2rem;
+  margin-bottom: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 30%;
+  
+    
+  }
+  .docimg {
+    width: 3rem;
+    height: 45px;
+    margin-top: 1.5rem;
+    margin-left: 1%;
+    border-radius: 30%;
+    cursor: pointer;
+  }
+  .docimg:hover{
+  background-color:  rgb(240, 239, 239);
+  }
+  .mainhead {
+    margin-top: -4.2%;
+    margin-left: 5%;
+    font-size: 1.5rem;
+    width: 15%;
+  }
+  .mainhead input {
+    border: none;
+    font-size: 1.2rem;
+    width: 11rem;
+    padding: 2px;
+    margin-left: 0.3rem;
+    background-color: transparent;
+  }
+  .lefticon{
+    display: flex;
+    margin-left: 18rem;
+    margin-top: -1.5rem;
+    gap: 2rem;
+    cursor: pointer;
+  }
+  
+  .star:hover {
+    background-color: rgb(240, 239, 239);
+  }
+  .drive:hover {
+    background-color: rgb(240, 239, 239);
+  }
+  
+  
+  
+  .file {
+    /* font-weight: 400; */
+    margin-top: -0.4rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    cursor: pointer;
+    height: 40%;
+    z-index: 2;
+    border-radius: 30%;
+    color: black;
+  }
+  .lis:hover {
+    background-color: rgb(240, 239, 239);
+  }
+  .file:hover {
+    background-color: rgb(240, 239, 239);
+  }
+  /* .message{
+        margin-left: 70rem;
+        margin-top: -3rem;
+    } */
+  
+  .righticon {
+    margin-left: 70rem;
+    display: flex;
+    
+    margin-bottom: -3.5rem;
+    gap: 2rem;
+  }
+  .shares {
+    font-size: 1.4rem;
+    margin-top: -1rem;
+    margin-bottom: 2.3rem;
+    padding: 0.5rem;
+    display: flex;
+    width: 10rem;
+    height: 28%;
+  
+    border-radius: 40px;
+    background-color: #c2e7ff;
+    cursor: pointer;
+  }
+  .shares:hover {
+    background-color: rgb(126, 210, 217);
+  }
+  
+  .user {
+    margin-right: 0.8rem;
+    margin-top: -0.8rem;
+  }
+  .message {
+    font-size: 2.6rem;
+    margin-top: -0.5rem;
+    width: 2rem;
+  }
+  .message:hover {
+    background-color: rgb(240, 239, 239);
+  }
+  .video {
+    font-size: 2.6rem;
+    margin-top: -0.6rem;
+  }
+  
+  .video:hover {
+    background-color: rgb(240, 239, 239);
+  }
+  .lis{
+  border: none;
+    height: 100%;
+    background-color: white;
+  margin-top: 0.2rem;
+  font-size: 14.2px;
+   color: rgb(39, 38, 38);
+  }
